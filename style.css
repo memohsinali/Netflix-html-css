@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#sign {
+    background-color: red;
+    width: 80px;
+    height: 50px;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#getstart {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 18px;
+    background-color: red;
+    width: 160px;
+    height: 55px;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#logo {
+    width: 200px;
+    height: 60px;
+}
+
+
+
+.main img {
+    filter: brightness(0.4);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.nav {
+    display: flex;
+    position: relative;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+
+@media (max-width:360px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.text .heading {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    font-weight: 900;
+    text-size-adjust: 100%;
+
+}
+
+.text .point {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    text-size-adjust: 100%;
+    padding-top: 15px;
+}
+
+input {
+    padding: 18px 60px;
+    background-color: rgb(64, 62, 62);
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 10px;
+}
+
+.credentials {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:360px) {
+    .credentials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+body {
+    background-color: black;
+    width: 100vw;
+}
+
+
+.solid {
+    border-top: 3px solid gray;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    margin-inline-end: px;
+    margin-inline-start: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.downloads {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    overflow-x: hidden;
+    text-align: center;
+    overflow: hidden;
+}
+.p2h1 {
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    font-weight: 900;
+    text-size-adjust: 100%;
+}
+
+.p2h2 {
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    text-size-adjust: 100%;
+}
+
+.part2 {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+@media(max-width:960px)
+{
+    .downloads{
+        display: flex;
+        flex-direction: column;
+    }
+    .part1{
+        order: "1";
+    }
+
+    .part2{
+        order: "2";
+    }
+}
+
+.part1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.remarks :first-child{
+
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    font-weight: 900;
+    text-size-adjust: 100%;
+    text-align: center;
+}
+.remarks :nth-child(2)
+{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    text-size-adjust: 100%;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.remarks{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    height:500px;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+    text-align: center;
+    margin-top:80px;
+    margin-bottom: 80px;
+}
+
+.rcontainer{
+    display: flex;
+}
+
+.video{
+    width: 400px;
+}
